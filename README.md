@@ -226,4 +226,6 @@ brew services restart nginx
 
 https로 접속하여 정상적으로 작동되는지를 확인하자.  
 
+## crontab을 활성화시켜 인증서 자동 갱신하기
+
 
