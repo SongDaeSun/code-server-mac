@@ -43,6 +43,12 @@ brew uninstall --force nginx
 brew install nginx
 ```
 
+### ubuntu nginx tjfcl
+```
+sudo apt update
+sudo apt install nginx
+```
+
 아래의 명령어로 nginx.conf를 열고,  
 server가 활성화 된 부분에 다음의 코드를 이식할 것.
 ```
