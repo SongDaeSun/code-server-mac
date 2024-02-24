@@ -8,6 +8,11 @@ MAC OS에서 https로 보안이 된 code-server를 띄워서 언제 어디서나
 brew install code-server
 ```
 
+### ubuntu code-server install
+```
+curl -fsSL https://code-server.dev/install.sh | sh
+```
+
 code-server 명령어로 code-server 실행여부 파악.  
 이를 해줘야 code-server config 파일이 생성된다.
 ```
