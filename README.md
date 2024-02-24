@@ -83,6 +83,15 @@ nginx를 재실행하여서 방금의 수정내용을 적용시킨다.
 ```
 brew services restart nginx
 ```
+
+```
+sudo systemctl stop nginx
+sudo systemctl start nginx
+sudo systemctl restart nginx
+
+sudo systemctl reload nginx
+sudo systemctl enable nginx
+```
 localhost:80으로 접속하여 잘 작동되는지를 우선 확인한다.  
 
 
